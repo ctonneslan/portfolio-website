@@ -1,92 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio of [Your Name] - Front-End Developer">
-    <title>Charlie Tonneslan | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>portfolio-website</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar">
-        <h1 class="logo">Charlie Tonneslan</h1>
-        <ul class="nav-links">
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="hero-content">
-        <h2>Hi, I'm Charlie Tonneslan</h2>
-        <p>Front-End Developer crafting clean and responsive web applications.</p>
-      </div>
-    </section>
-
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>CineScope</h3>
-          <p>Simple website that allows users to search for movies, get recommendations, add ratings/notes/favorites.</p>
-          <div class="project-links">
-            <a href="https://ctonneslan.github.io/movie-app/" target="_blank">Live Demo</a>
-            <a href="https://github.com/ctonneslan/movie-app" target="_blank">GitHub Repo</a>
-          </div>
-        </div>
-        <!-- Add more project-card divs here --> 
-         <div class="project-card">
-          <h3>DevSearch</h3>
-          <p>Search GitHub users and see their profile, top repos, and language usage.</p>
-          <div class="project-links">
-            <a href="https://ctonneslan.github.io/devsearch/" target="_blank">Live Demo</a>
-            <a href="https://github.com/ctonneslan/devsearch" target="_blank">GitHub Repo</a>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3>Budget Buddy</h3>
-          <p>Budget tracking with pie chart visualization.</p>
-          <div class="project-links">
-            <a href="https://ctonneslan.github.io/budget-buddy/" target="_blank">Live Demo</a>
-            <a href="https://github.com/ctonneslan/budget-buddy" target="_blank">GitHub Repo</a>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3>Markdown Previewer</h3>
-          <p>A real-time Markdown editor with live preview, syntax highlighting, and customizable dark/light themes.</p>
-          <div class="project-links">
-            <a href="https://ctonneslan.github.io/markdown-previewer/" target="_blank">Live Demo</a>
-            <a href="https://github.com/ctonneslan/markdown-previewer" target="_blank">GitHub Repo</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a front-end developer focused on building user-friendly websites using HTML, CSS, and JavaScript. I enjoy turning complex problems into simple, beautiful designs.
-      </p>
-    </section>
-
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <form id="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-
-    <footer>
-      <p>&copy; 2025 Charlie Tonneslan. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
