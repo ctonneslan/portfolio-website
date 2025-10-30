@@ -31,7 +31,7 @@ function Projects() {
       title: 'Letterboxd Clone',
       description: 'Movie tracking and review platform inspired by Letterboxd, featuring film discovery and social features.',
       technologies: ['JavaScript', 'React', 'API Integration'],
-      github: 'https://github.com/ctonneslan/LetterboxdClone',
+      github: 'https://github.com/ctonneslan/letterboxd-clone',
       demo: '#',
     },
   ];
